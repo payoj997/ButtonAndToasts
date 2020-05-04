@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#EAF0F1">
+
+    <Button
+        android:id="@+id/errorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#E44236"
+        android:text="Error"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/successButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#2ecc72"
+        android:text="Success"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#3498DB"
+        android:text="info"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/warningButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#FAC42F"
+        android:text="Warning"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="#616C6F"
+        android:text="image"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:onClick="showToast"/>
+</LinearLayout>
